@@ -319,13 +319,79 @@
 // console.log(buaydi)
 // console.log(buclass)           
 
-let matn = document.querySelector("p");
-let btn = document.querySelector("button");
+// let matn = document.querySelector("p");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click", function() {      
-    matn.textContent = "Matn o'zgardi!";
-    matn.style.color = "red";
-    matn.style.backgroundColor = "yellow";
-    matn.style.fontSize = "24px";
+// btn.addEventListener("click", function() {      
+//     matn.textContent = "Matn o'zgardi!";
+//     matn.style.color = "red";
+//     matn.style.backgroundColor = "yellow";
+//     matn.style.fontSize = "24px";
+// })
+
+
+
+// btn.addEventListener("click", () => {
+    // matn.classList.add("still")    
+//     matn.classList.remove("active")
+//     matn.classList.toggle("still")
+//     console.log(matn)
+// })
+
+// let btn = document.querySelector(".btn")
+// let card = document.querySelector(".card")
+
+// let yangiMatn = document.createElement("h1");
+
+// yangiMatn.textContent = "Hello World"
+// yangiMatn.classList.add("still")
+
+// btn.addEventListener("click", () => {
+//     card.appendChild(yangiMatn)
+//     console.log(card)
+// }
+// )
+
+// btn.addEventListener("dblclick", () => {
+//     card.removeChild(yangiMatn)
+//     console.log(card)
+// })
+
+// let card = document.querySelector(".card")
+
+// card.addEventListener('mouseover', () => {
+//     card.style.backgroundColor = "lightblue"   
+//     console.log("Mouse is over the card")                 
+// })
+
+// card.addEventListener('mouseout', () => {
+//     card.style.backgroundColor = "black"
+//         console.log("Mouse is out of the card")
+// })  
+
+// card.addEventListener("mousedown", () => {
+//     card.style.backgroundColor = "lightgreen"
+// console.log("Mouse button is pressed down on the card")
+// })
+
+// card.addEventListener("mouseup", () => {
+//     card.style.backgroundColor = "white"
+//     console.log("Mouse button is released on the card")
+// }   )       
+
+// card.addEventListener("mousemove", () => { 
+
+//     console.log("Mouse is moving over the card")
+// })
+
+let matn = document.querySelector("#bosdim")
+let btn = document.querySelector(".btn")
+
+
+
+btn.addEventListener("click", () => {
+    let yangiElement = document.createElement("li")
+yangiElement.textContent = "Yangi li"   
+    matn.appendChild(yangiElement)
+    console.log("bosdim")
 })
-
