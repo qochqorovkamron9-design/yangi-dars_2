@@ -384,14 +384,53 @@
 //     console.log("Mouse is moving over the card")
 // })
 
-let matn = document.querySelector("#bosdim")
-let btn = document.querySelector(".btn")
+// let matn = document.querySelector("#bosdim")
+// let btn = document.querySelector(".btn")
 
 
 
-btn.addEventListener("click", () => {
-    let yangiElement = document.createElement("li")
-yangiElement.textContent = "Yangi li"   
-    matn.appendChild(yangiElement)
-    console.log("bosdim")
+// btn.addEventListener("click", () => {
+//     let yangiElement = document.createElement("li")
+// yangiElement.textContent = "Yangi li"   
+//     matn.appendChild(yangiElement)
+//     console.log("bosdim")
+// })
+
+
+
+// UYGA VAZIFA
+
+
+
+let yangiText = document.querySelector("#text")
+let btn = document.querySelector("#btn")
+
+btn.addEventListener("click",  () =>{
+ yangiText.textContent = "Javascript zo'r"
+})
+
+
+
+let quticha = document.querySelector(".box");
+let tugmacha = document.querySelector(".btn");
+
+quticha.classList.add("yashil-rang");
+
+tugmacha.addEventListener("click", () => {
+    if (quticha.classList.contains("yashil-rang")) {
+        quticha.classList.remove("yashil-rang");
+        quticha.classList.add("qizil-rang");
+    } else {
+        quticha.classList.remove("qizil-rang");
+        quticha.classList.add("yashil-rang");
+    }
+});
+
+
+let quticha2 = document.querySelector("#info")
+let tugmacha2 = document.querySelector(".btn")
+
+tugmacha2.addEventListener("click", () =>{
+    quticha2.classList.toggle("box")
+    
 })
