@@ -338,19 +338,7 @@
 //     console.log(matn)
 // })
 
-// let btn = document.querySelector(".btn")
-// let card = document.querySelector(".card")
 
-// let yangiMatn = document.createElement("h1");
-
-// yangiMatn.textContent = "Hello World"
-// yangiMatn.classList.add("still")
-
-// btn.addEventListener("click", () => {
-//     card.appendChild(yangiMatn)
-//     console.log(card)
-// }
-// )
 
 // btn.addEventListener("dblclick", () => {
 //     card.removeChild(yangiMatn)
@@ -384,17 +372,6 @@
 //     console.log("Mouse is moving over the card")
 // })
 
-// let matn = document.querySelector("#bosdim")
-// let btn = document.querySelector(".btn")
-
-
-
-// btn.addEventListener("click", () => {
-//     let yangiElement = document.createElement("li")
-// yangiElement.textContent = "Yangi li"   
-//     matn.appendChild(yangiElement)
-//     console.log("bosdim")
-// })
 
 
 
@@ -402,35 +379,74 @@
 
 
 
-let yangiText = document.querySelector("#text")
-let btn = document.querySelector("#btn")
+// let yangiText = document.querySelector("#text")
+// let btn = document.querySelector("#btn1")
 
-btn.addEventListener("click",  () =>{
- yangiText.textContent = "Javascript zo'r"
-})
-
-
-
-let quticha = document.querySelector(".box");
-let tugmacha = document.querySelector(".btn");
-
-quticha.classList.add("yashil-rang");
-
-tugmacha.addEventListener("click", () => {
-    if (quticha.classList.contains("yashil-rang")) {
-        quticha.classList.remove("yashil-rang");
-        quticha.classList.add("qizil-rang");
-    } else {
-        quticha.classList.remove("qizil-rang");
-        quticha.classList.add("yashil-rang");
-    }
-});
+// btn.addEventListener("click",  () =>{
+//  yangiText.textContent = "Javascript zo'r"
+// })
 
 
-let quticha2 = document.querySelector("#info")
-let tugmacha2 = document.querySelector(".btn")
 
-tugmacha2.addEventListener("click", () =>{
-    quticha2.classList.toggle("box")
+// let quticha = document.querySelector(".box");
+// let tugmacha = document.querySelector(".btn2");
+
+// quticha.classList.add("yashil-rang");
+
+// tugmacha.addEventListener("click", () => {
+//     if (quticha.classList.contains("yashil-rang")) {
+//         quticha.classList.remove("yashil-rang");
+//         quticha.classList.add("qizil-rang");
+//     } else {
+//         quticha.classList.remove("qizil-rang");
+//         quticha.classList.add("yashil-rang");
+//     }
+// });
+
+
+// let quticha2 = document.querySelector("#info")
+// let tugmacha2 = document.querySelector(".btn3")
+
+// tugmacha2.addEventListener("click", () =>{
+//     quticha2.classList.toggle("box3")
     
-})
+// })
+
+
+// li.forEach((e) => {
+//     e.addEventListener("click", () => {
+//         e.remove()
+//     })
+// })
+
+// let matn = document.querySelector("ul");
+// let btn = document.querySelector(".btn");
+
+// btn.addEventListener("click", () => {
+    
+//     let yangiElement = document.createElement("li");
+//     yangiElement.textContent = "Yangi li"; 
+    
+    
+//     yangiElement.addEventListener("click", () => {
+//         yangiElement.remove();
+//     });
+
+    
+//     matn.appendChild(yangiElement);
+//     console.log("Yangi element qo'shildi va unga o'chirish funksiyasi ulandi.");
+
+// window.addEventListener("keydown", (e) =>{
+//     if (e.key === "g" && e.altKey)
+//     {
+//         document.body.style.background = "green"
+//     }
+
+// })
+
+// document.addEventListener("keydown", function(e) {
+//     if (e.key === "F5"){
+//         e.preventDefault();
+//         console.log(e.key)
+//     }
+// })
